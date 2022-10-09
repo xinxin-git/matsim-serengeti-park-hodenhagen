@@ -5,7 +5,6 @@ import org.matsim.core.events.EventsUtils;
 
 public class SimpleAnalysis {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         SimplePersonEventHandler handler = new SimplePersonEventHandler();
         EventsManager manager = EventsUtils.createEventsManager();
         manager.addHandler(handler);
